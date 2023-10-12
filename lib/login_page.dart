@@ -16,7 +16,11 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blueGrey[900],
-      body: Column(children: [Text("Login Page")]),
+      body: SafeArea(
+        child: Column(children: [
+          Text("Login Page"),
+        ]),
+      ),
     );
   }
 }
