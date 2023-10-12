@@ -18,7 +18,10 @@ class _LoginPageState extends State<LoginPage> {
       backgroundColor: Colors.blueGrey[900],
       body: SafeArea(
         child: Column(children: [
-          Text("Login Page"),
+          Text(
+            "Login Page",
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+          ),
         ]),
       ),
     );
