@@ -26,6 +26,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      routes: {
+        '/login': (context) => const LoginPage(),
+      },
     );
   }
 }
@@ -107,10 +110,13 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+        onPressed: () {
+          Navigator.pushNamed(context, '/login');
+        },
+        tooltip: 'Go to Login Page',
+        child: const Icon(Icons.login),
+      ),
+      // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
