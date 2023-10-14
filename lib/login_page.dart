@@ -99,11 +99,28 @@ class _LoginPageState extends State<LoginPage> {
                 child: Center(
                   child: Text(
                     "Sign In",
-                    style: TextStyle(color: Colors.white, fontSize: 20),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
             ),
+            SizedBox(height: 10),
+
+            //not a member register here
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Not a member?'),
+                Text(
+                  'Register now',
+                  style: TextStyle(
+                      color: Colors.blue, fontWeight: FontWeight.bold),
+                )
+              ],
+            )
           ],
         )),
       ),
