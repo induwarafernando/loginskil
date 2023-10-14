@@ -58,7 +58,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 )),
 
-            SizedBox(height: 20),
+            SizedBox(height: 5),
 
             //password textfield
 
@@ -85,7 +85,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 15),
 
             //sign in button
             Padding(
