@@ -15,7 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Color.fromARGB(255, 88, 20, 184),
       body: SafeArea(
         child: Center(
             child: Column(
@@ -24,7 +24,7 @@ class _LoginPageState extends State<LoginPage> {
             //Hello again
             Text(
               "Hello Again!",
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
             Text(
@@ -108,7 +108,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 25),
 
             //not a member register here
             Row(
