@@ -15,7 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 88, 20, 184),
+      backgroundColor: Color.fromARGB(255, 232, 220, 248),
       body: SafeArea(
         child: Center(
             child: Column(
