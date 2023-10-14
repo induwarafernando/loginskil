@@ -19,6 +19,7 @@ class _LoginPageState extends State<LoginPage> {
       body: SafeArea(
         child: Center(
             child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             //Hello again
             Text(
@@ -27,12 +28,12 @@ class _LoginPageState extends State<LoginPage> {
             ),
             SizedBox(height: 10),
             Text(
-              "Welcome back to the app",
+              "Welcome back, you've been missed!",
               style: TextStyle(
                 fontSize: 20,
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 50),
 
             //email textfield
 
@@ -115,7 +116,7 @@ class _LoginPageState extends State<LoginPage> {
               children: [
                 Text('Not a member?'),
                 Text(
-                  'Register now',
+                  '  Register now',
                   style: TextStyle(
                       color: Colors.blue, fontWeight: FontWeight.bold),
                 )
