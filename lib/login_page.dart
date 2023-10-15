@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
             ),
-            SizedBox(height: 15),
+            SizedBox(height: 55),
 
             //sign in button
             Padding(
