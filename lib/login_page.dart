@@ -21,6 +21,8 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Icon(Icons.account_circle, size: 100, color: Colors.blue),
+
             //Hello again
             Text(
               "Hello Again!",
