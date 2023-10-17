@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "371779670445",
+    "project_id": "login-firebase-91f17",
+    "storage_bucket": "login-firebase-91f17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371779670445:android:1d93d80a467602decf9124",
+        "android_client_info": {
+          "package_name": "com.example.loginskil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGe7Vvqrs6jztFEGuGIz5IWz5DEPXLYQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
